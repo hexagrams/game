@@ -20,6 +20,8 @@ import {
 } from 'oasis-engine';
 import * as TWEEN from '@tweenjs/tween.js';
 import { LitePhysics } from '@oasis-engine/physics-lite';
+import './index.css';
+
 enum EnumBirdState {
   Alive = 0,
   Dead = 1,
@@ -64,6 +66,7 @@ function fitWithHeight(aspectRatio: number) {
 }
 
 function App() {
+  console.log(1);
   React.useEffect(() => {
     // Design size.
     fitWithHeight(768 / 896);
