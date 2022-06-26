@@ -55,7 +55,7 @@ let gameResArray: Texture2D[];
  * @param designHeight - Design height
  */
 function fitWithHeight(aspectRatio: number) {
-  const canvas = document.getElementById('canvas');
+  const canvas: any = document.getElementById('canvas');
   const parentEle = canvas.parentElement;
   const style = canvas.style;
   const designHeight = parentEle.clientHeight;

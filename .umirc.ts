@@ -1,3 +1,4 @@
 export default {
-  npmClient: 'cnpm'
+  npmClient: 'cnpm',
+  mfsu: false,
 };
